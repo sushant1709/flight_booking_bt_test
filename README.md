@@ -1,5 +1,5 @@
 Clone the Repository 
- - git clone https://github.com/yourusername/restful_booker_testing.git
+ - git clone https://github.com/sushant1709/flight_booking_bt_test.git
    
 Install the dependencies:
  - pip install -r requirements.txt

@@ -1,0 +1,29 @@
+{
+  "base_url": "https://restful-booker.herokuapp.com",
+  "username": "admin",
+  "password": "password123",
+  "bookings": [
+    {
+      "firstname": "Sushant",
+      "lastname": "Kumar",
+      "totalprice": 500,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2024-09-01",
+        "checkout": "2024-10-02"
+      },
+      "additionalneeds": "Breakfast"
+    },
+    {
+      "firstname": "James",
+      "lastname": "Brown",
+      "totalprice": 1000,
+      "depositpaid": false,
+      "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2023-01-02"
+      },
+      "additionalneeds": ""
+    }
+  ]
+}

@@ -3,6 +3,7 @@ from utility.logging_config import get_logger
 
 logger = get_logger(__name__)
 
+
 class RestfulBookerClient:
     def __init__(self, base_url, username, password):
         self.base_url = base_url

@@ -74,7 +74,6 @@ def get_deleted_booking(api_client, booking_id):
 def test_delete_booking(api_client, bookings):
     new_booking1, _ = bookings
 
-    # Delete the first booking and log the return status
     delete_status = api_client.delete_booking(new_booking1['bookingid'])
     logger.info(f"Deleted booking 1 status code: {delete_status}")
 
@@ -82,5 +81,4 @@ def test_delete_booking(api_client, bookings):
     # with pytest.raises(requests.exceptions.HTTPError):
     #     get_deleted_booking(api_client, new_booking1['bookingid'])
 
-    # Log the response code for verification
     logger.info(f"Response code for delete operation: {delete_status}")

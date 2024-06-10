@@ -6,3 +6,8 @@ Install the dependencies:
 
 Run the tests using pytest:
   - pytest -v test/test_booker.py
+
+
+
+2.Write a python program for scenario : Given an array of n elements, find all possible sub arrays such that number of odd elements within the subarray is equal to 3.
+ above program in implemented in   "subarray_with_three_odds.py " file
